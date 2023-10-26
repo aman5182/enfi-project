@@ -1,0 +1,24 @@
+/* Custom CSS */
+.custom-table {
+  /* Add your custom styling here */
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px !important ;
+  // background-color: #f0f0f0;
+  background-color: #eee0fc !important; /* Alternate row background color */
+}
+.custom-table th,
+.custom-table td {
+  font-size: 0.9rem;
+  border: 1px solid #543279; /* Add vertical and horizontal lines */
+  padding: 8px;
+  text-align: left;
+}
+.table-header {
+  background: #543279 !important;
+  color: #f0f0f0;
+  // font-size: 2rem;
+}
+.custom-table tr:nth-child(even) {
+  background-color: #e9d4ff !important; /* Alternate row background color */
+}

@@ -1,0 +1,121 @@
+.select-dropdown,
+.select-dropdown * {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  #custom-select::placeholder {
+    color: #ffc919; /* Change this color value to your desired color */
+  }
+}
+/* CSS */
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #7835a7 10%, #ffdb4d 51%, #8159d0 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.h {
+  min-height: 80vh;
+}
+
+.buyenfi-main {
+  // background:
+
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.591);
+}
+.label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-right: 0.4rem;
+}
+.select-dropdown {
+  position: relative;
+  border-radius: 6px;
+  // width: 20vw;
+}
+.h1 {
+  color: #12263f;
+  text-align: center;
+}
+
+.bg {
+  // background-color: #12263f;
+  // background-color: #caf2fb;
+  // background: linear-gradient(45deg, #12263f 0%, #405a75 50%, #12263f 50%, #405a75 100%);
+  background-size: 200% 200%; /* Increase the size of the gradient */
+  animation: gradient-animation 5s ease infinite; /* Add animation for a stylish effect */
+  border-radius: 20px;
+  // height: 10vh;
+  padding: 1rem;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: -100% 0%;
+  }
+}
+.select-dropdown select {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Style options when hovering */
+.select-dropdown select:hover option {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.select-dropdown select:active,
+.select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.select-dropdown:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}

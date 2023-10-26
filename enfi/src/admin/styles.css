@@ -1,0 +1,118 @@
+/* src/styles.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the table headers */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  /* Style the table rows */
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style table data cells */
+  td {
+    padding: 8px;
+  }
+  
+  /* Apply alternating row colors */
+  tr:nth-child(even) {
+    background-color: #dfd4d4;
+  }
+  
+  /* Highlight on hover */
+  tr:hover {
+    background-color: #d3e4cd;
+  }
+  .approve-button {
+    background-color: rgb(131, 210, 79);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .decline-button{
+    background-color: rgb(245, 50, 50);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .active-button {
+    background-color: #d5e12a; /* Green background color */
+    color: rgb(205, 59, 59); /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin: 5px; /* Add some margin between buttons */
+    border-radius: 12px;
+  }
+  
+  .inactive-button {
+    background-color: #ac9e9e; /* Light gray background color for inactive buttons */
+    color: #651919; /* Gray text color for inactive buttons */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 12px;
+  }
+  
+  /* Hover Effect */
+  .active-button:hover {
+    background-color: #9ab4e3; /* Darker green background color on hover */
+  }
+
+
+  /* connect wallet */
+
+  .header-wallet-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .header-wallet-info button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .header-wallet-info button:hover {
+    background-color: #0056b3;
+  }
+  
+  .header-wallet-info p {
+    margin: 0;
+  }
+  
+  .header-wallet-info p:not(:first-child) {
+    margin-left: 10px;
+  }
+  
+  /* style.css */
+.withdrawal-button {
+  background-color: #d5e12a; /* Green background color */
+  color: rgb(205, 59, 59); /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin: 5px; /* Add some margin between buttons */
+  border-radius: 12px;
+}
